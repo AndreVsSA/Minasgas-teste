@@ -3,7 +3,7 @@ body {
     font-family: 'Open Sauce One', sans-serif;
     font-family: 'Open Sauce Two', sans-serif;
     font-family: 'Open Sauce Sans', sans-serif;
-    background-color: #dab900;
+    background-color: #f0be00;
     color: rgb(0, 0, 0);
 }
 
@@ -14,6 +14,11 @@ body {
     padding-left: 50px;
     padding-right: 50px;
     /* height: 75vh; */
+}
+.logo img{
+    max-width:400px;
+    padding: 30px;
+    
 }
 
 .content h3{
@@ -99,7 +104,7 @@ p {
 h2 {
     font-weight: 900;
     font-size: 2rem;
-    color: #721700;
+    color:  #d33100 ;
 }
 
 p {
@@ -256,6 +261,11 @@ h3 {
     .revenda-container {
         flex-direction: column;
     }
+    .logo img{
+        max-width: 85%;
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
 }
 
 @media screen and (max-width: 450px) {
@@ -270,4 +280,5 @@ h3 {
     .revenda-img{
         max-width: 80%;
     }
+   
 }
